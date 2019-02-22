@@ -1,0 +1,15 @@
+{
+  "name": "unSplashInfiniteScroll",
+  "version": "1.0.0",
+  "description": "Unsplash API based infinite scroll using React",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev" : "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": ["unsplash", "react"],
+  "author": "",
+  "license": "ISC"
+}
